@@ -1,9 +1,11 @@
 import webbrowser
 
 newstr = "Hello"
-newstr += "World, Let's go to Python.org!!!"
+newstr += "World, Let's go to a new site!!"
 print newstr
 
-url = "http://www.python.org"
-webbrowser.open(url)
+urlstr = "http://" +  raw_input('Which URL do you want to go to? ')
+print urlstr
+
+webbrowser.open(urlstr)
 
